@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <div class="section">
+    <div class="container">
+      <h2 class="is-title is-2">{{ post.title }}</h2>
+      <h3 class="is-subtitle is-3">{{ post.subtitle }}</h3>
+      <p>{{ post }}</p>
+    </div>
+  </div>
+{% endfor %}
