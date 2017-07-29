@@ -27,14 +27,19 @@ $body-size: 20px;
 @import "bulma/bulma";
 
 h1, h2, h3 {
-  font-weight: bolder;
   font-family: $playfair-display;
 }
 
+
+
+.title {
+  &.is-1, &.is-2 {
+    font-weight: bolder;
+  }
+}
 .section:nth-of-type(even) {
   background-color: whitesmoke;
 }
-
 
 .navbar {
   background-color: $primary;
