@@ -1,7 +1,2 @@
 # paulnewsam.me
-My personal website!
-
-## Tech Stack
-* _Jekyll_
-* Sass
-* [Bulma]http://bulma.io/
+My personal website! Built on Jekyll, using [Bulma](http://bulma.io/) and Sass.
